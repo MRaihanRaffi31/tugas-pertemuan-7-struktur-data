@@ -41,8 +41,8 @@ class Bioskop {
 
 // contoh penggunaan kelas Bioskop dan Film
 let bioskop = new Bioskop("XXI Samarinda");
-let film1 = new Film("Avengers", 50000, 50);
-let film2 = new Film("Spiderman", 45000, 50);
+let film1 = new Film("Avengers: Doomsday", 50000, 50);
+let film2 = new Film("Avatar: The Way of Water", 45000, 50);
 
 bioskop.tambahFilm(film1);
 bioskop.tambahFilm(film2);
